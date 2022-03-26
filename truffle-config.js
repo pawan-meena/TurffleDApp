@@ -18,11 +18,11 @@
  *
  */
 
-// const HDWalletProvider = require('@truffle/hdwallet-provider');
-//
+const HDWalletProvider = require('@truffle/hdwallet-provider');
+
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
-
+const mnemonic ='aspect pepper vicious next reveal ritual video agree brand truth unknown laundry';
 module.exports = {
   /**
    * Networks define how you connect to your ethereum client and let you set the
